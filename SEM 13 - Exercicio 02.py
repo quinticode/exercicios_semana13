@@ -10,7 +10,7 @@ def e_palindromo(string):
         
         if string[i] != string[tamanho - i - 1]:
             return False
-        return True
+    return True
     
 
 print(e_palindromo("aaaa"))
@@ -19,3 +19,4 @@ print(e_palindromo("radar"))
 print(e_palindromo("Marina"))
 print(e_palindromo("falsidade"))
 print(e_palindromo("socorrosubinoonibusemmarrocos"))
+print(e_palindromo("socorrammesubinoonibusemmarrocos"))
